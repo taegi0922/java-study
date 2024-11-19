@@ -1,40 +1,14 @@
-	// 초기값 => 데이터를 저장하는 방법
-		//
-		// 자바에서 사용하는 표현법
-		// 정수 byte/short/int : 숫자 사용 
-		// 날짜 => 2024-09-20(시간) === 8진법 => error 
 
-		//long표현
-		// 10L 뒤에 L을 붙여줘야한다.
-
-		// 실수형
-		// 10.5 = > double
-		// 10.5F => float 
-
-		// 문자형 
-		// 한글자만 저장이 가능 
-		// 'A' 하나의 문자만 가능 ,  " "(쌍따음표)는 문자열 
-		// 논리형
-		// true/fasle 
-		
-//		데이터 저장 방법
-//		1) 명시적 초기화 
-//		int a=10;
-//		2) 입력을 받아서 초기화 
-//		3) 난수 발생
-		
-//		변수 선언
-//		데이터형 변수명 = 값 
-//		데이터 형 변수명;
-//		변수명 = 값
-//		
-//		변수 선언만 하고 사용하면 error발생!!!
 public class 자바소개_특징 {
 	public static void main(String[] args) {
 	
+		int kor =90,eng=90,math=90; 
+		int total=kor+eng+math;
+		double avg = total/3;
+		char grade='A';
+		int num = 2;
+		System.out.println("kor"+kor+"eng"+eng+"math"+math+"총점"+total+"평균"+avg+"학점"+grade+"등수"+num );
 		
-		System.out.println("제발 좀 되라");
-			
 	}
 
 }
