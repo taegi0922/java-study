@@ -33,7 +33,7 @@ public class 자바소개_특징 {
 	public static void main(String[] args) {
 	
 		
-		System.out.println((int)'홍');
+		System.out.println("제발 좀 되라");
 			
 	}
 
