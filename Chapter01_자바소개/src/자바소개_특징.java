@@ -16,7 +16,6 @@
    =  최적화
    =  
    6. 예외 처리 : 종료하지 않는 프로그램 
-   
  * */
 public class 자바소개_특징 {
 	public static void main(String[] args) {
