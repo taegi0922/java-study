@@ -16,6 +16,7 @@
    =  최적화
    =  
    6. 예외 처리 : 종료하지 않는 프로그램 
+   7. 라이브러리 : 자바에서 지원하는 기능 (클래스 / 메소드)
  * */
 public class 자바소개_특징 {
 	public static void main(String[] args) {
