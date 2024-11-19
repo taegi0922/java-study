@@ -1,7 +1,4 @@
-
-public class 자바소개_특징 {
-	public static void main(String[] args) {
-		// 초기값 => 데이터를 저장하는 방법
+	// 초기값 => 데이터를 저장하는 방법
 		//
 		// 자바에서 사용하는 표현법
 		// 정수 byte/short/int : 숫자 사용 
@@ -32,6 +29,11 @@ public class 자바소개_특징 {
 //		변수명 = 값
 //		
 //		변수 선언만 하고 사용하면 error발생!!!
+public class 자바소개_특징 {
+	public static void main(String[] args) {
+	
+		
+		System.out.println((int)'홍');
 			
 	}
 
