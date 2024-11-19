@@ -23,6 +23,7 @@ public class 변수_5 {
 	public static void main(String[] args) {
 		char a ='A';
 		System.out.println(++a);
+		// B
 
 	}
 
