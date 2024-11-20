@@ -24,7 +24,7 @@ public class 변수_5 {
 		char a ='A';
 		System.out.println(++a);
 		// B
-
+		
 	}
 
 }

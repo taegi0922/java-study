@@ -7,7 +7,10 @@
  * 	
  * 	기능 : 출력 / 증가 
  * 			int a =10;
- * 			System.out.println(a++);
+ * 			System.out.println(a++); // 출력 후 증가 //10
+ * 			
+ * 			int a =10;
+ * 			System.out.println(++a); // 증가 후 출력 //11
  * */
 public class 연산자_단항연산자1 {
 	public static void main(String[] args) {
