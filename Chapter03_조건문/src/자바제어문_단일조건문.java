@@ -14,16 +14,10 @@ import java.util.Scanner; // 입력을 받아서 처리해 주는 클래스
 public class 자바제어문_단일조건문 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("문자입력: ");
-		char ch = scan.next().charAt(0); // 문자 첫번째를 가져오는 경우 
-		
-		if(ch>='A' && ch<='Z' ) {
-			System.out.println(ch+"은 대문자입니다");
-		}
-		if(ch>='a' && ch<='z' ) {
-			System.out.println(ch+"은 소문자입니다");
-		}
+		Scanner  scan = new Scanner(System.in);
+		char num = scan.next().charAt(0);
+	
+
 	}
 
 }
